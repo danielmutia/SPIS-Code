@@ -2,8 +2,8 @@
 Methodology for sizing solar powered irrigation systems
 
 The following are the required inputs for the model:
-country (name)
-state (name - admin 1 or 2)
+- country (name)
+- state (name - admin 1 or 2)
 - lat, lon (deg)
 - gw_depth (Ground water depth in m)
 - sw_dist (Distance to surface water in m)
@@ -26,6 +26,8 @@ This code outputs the following parameters for solar powered irrigation systems:
 - Peak power demand (in kW/ha)
 - PV Size (in kW/ha)
 - Annual Energy Demand for Agriculture (kWh/ha)
-- Electrification Potential (kWh/ha)
-- Utilisation factors before and after electrification
-- Cost of the system
+- Total Annual Energy by the PV system
+- SPIS utilisation factors
+- Number of households that can be electrified from excess energy
+- New SPIS utilisation factors if used for electrification
+- SPIS cost

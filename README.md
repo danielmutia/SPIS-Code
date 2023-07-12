@@ -1,5 +1,5 @@
 # Methodology for sizing solar powered irrigation systems
-# Inputs
+
 The following are the required inputs for the model:
 - country (name)
 - state (name - admin 1 or 2)
@@ -20,7 +20,7 @@ The following are the required inputs for the model:
 - pvout_i (Mothly PV potential in kWh/kWp)
 - protected (1 if not protected and 9999 if protected)
 
-# Outputs
+
 This code outputs the following parameters for solar powered irrigation systems:
 - Peak water requirements (in l/ha/day)
 - Peak power demand (in kW/ha)

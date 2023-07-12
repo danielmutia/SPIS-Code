@@ -1,6 +1,6 @@
 # Methodology for sizing solar powered irrigation systems
 
-The following are the required inputs for the model:
+The code input should be in the form of a CSV file with the rows representing the analysis polygons and the columns containing the following parameters:
 - country (name)
 - state (name - admin 1 or 2)
 - lat, lon (deg)
@@ -21,7 +21,7 @@ The following are the required inputs for the model:
 - protected (1 if not protected and 9999 if protected)
 
 
-This code outputs the following parameters for solar powered irrigation systems:
+This code outputs the parameters shown below for solar powered irrigation systems. However, more can be obtained from the code by adjusting output section of the code.
 - Peak water requirements (in l/ha/day)
 - Peak power demand (in kW/ha)
 - PV Size (in kW/ha)

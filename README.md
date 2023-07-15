@@ -31,4 +31,4 @@ This code outputs the parameters shown below for solar powered irrigation system
 - New SPIS utilisation factors if used for electrification
 - SPIS cost
 
-Input and output files for Kenya's average and drought scenarios have been provided.
+Input and output files for Kenya's average and drought scenarios analysis have been provided. You can generate and run your input file for the geography you are interested in.

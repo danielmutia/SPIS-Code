@@ -8,7 +8,6 @@ The code input should be in the form of a CSV file with the rows representing th
 - sw_depth (elevation of the nearest surface water source)
 - elevation (in m)
 - awsc (Water storage capacity of the soil in mm/m)
-- sw_suit_idx (Surface irrigation suitability index: 1= suitable 9999= non suitable)
 - prec_i (Average precipitation in mm/month; i=1-12)
 - srad_i (Average solar irradiation per month in kJ m-2 day-1; i=1-12)
 - wind_i (Average wind speed per month in m s-1; i=1-12)

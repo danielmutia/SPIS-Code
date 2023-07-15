@@ -1,5 +1,4 @@
 # Methodology for sizing solar powered irrigation systems
-
 The code input should be in the form of a CSV file with the rows representing the analysis polygons and the columns containing the following parameters:
 - country (name)
 - state (name - admin 1 or 2)
@@ -31,3 +30,5 @@ This code outputs the parameters shown below for solar powered irrigation system
 - Number of households that can be electrified from excess energy
 - New SPIS utilisation factors if used for electrification
 - SPIS cost
+
+Input and output files for Kenya's average and drought scenarios have been provided.

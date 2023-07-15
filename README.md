@@ -1,9 +1,8 @@
-# MSc-Code
-Methodology for sizing solar powered irrigation systems
+# Methodology for sizing solar powered irrigation systems
 
-The following are the required inputs for the model:
-country (name)
-state (name - admin 1 or 2)
+The code input should be in the form of a CSV file with the rows representing the analysis polygons and the columns containing the following parameters:
+- country (name)
+- state (name - admin 1 or 2)
 - lat, lon (deg)
 - gw_depth (Ground water depth in m)
 - sw_dist (Distance to surface water in m)
@@ -21,11 +20,14 @@ state (name - admin 1 or 2)
 - pvout_i (Mothly PV potential in kWh/kWp)
 - protected (1 if not protected and 9999 if protected)
 
-This code outputs the following parameters for solar powered irrigation systems:
+
+This code outputs the parameters shown below for solar powered irrigation systems. However, more can be obtained from the code by adjusting output section of the code.
 - Peak water requirements (in l/ha/day)
 - Peak power demand (in kW/ha)
 - PV Size (in kW/ha)
 - Annual Energy Demand for Agriculture (kWh/ha)
-- Electrification Potential (kWh/ha)
-- Utilisation factors before and after electrification
-- Cost of the system
+- Total Annual Energy by the PV system
+- SPIS utilisation factors
+- Number of households that can be electrified from excess energy
+- New SPIS utilisation factors if used for electrification
+- SPIS cost

@@ -23,11 +23,11 @@ This code outputs the parameters shown below for solar powered irrigation system
 - Peak water requirements (in l/ha/day)
 - Peak power demand (in kW/ha)
 - PV Size (in kW/ha)
-- Annual Energy Demand for Agriculture (kWh/ha)
-- Total Annual Energy by the PV system
-- SPIS utilisation factors
+- Annual Energy Demand for Agriculture (in kWh/ha)
+- Total Annual Energy by the PV system (in kWh/ha)
+- SPIS utilisation factors (as a %)
 - Number of households that can be electrified from excess energy
-- New SPIS utilisation factors if used for electrification
-- SPIS cost
+- New SPIS utilisation factors if used for electrification (as a %)
+- SPIS cost (in USD/ha)
 
 Input and output files for Kenya's average and drought scenarios analysis have been provided. You can generate and run your input file for the geography you are interested in.
